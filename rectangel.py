@@ -4,21 +4,16 @@ class Rectangel:
         self.lenght = x
         self.width = y
 
-    def area(self, x, y):
-        self.x = x
-        self.y = y
-        return (x * y)
+    def area(self):
+        return (self.lenght * self.width)
     
-    def perimeter(self, x, y):
-        self.x = x
-        self.y = y
-        return (x + y) * 2
+    def perimeter(self):
+        return (self.lenght + self.width) * 2
 
-    def print_info(self, x, y):
-        self.x = x
-        self.y = y
-        print('P =',nums.perimeter(x ,y),"\t","S =",nums.area(x, y),"\t","lenght =",x,"\t","Width =",y)
-nums = Rectangel(3,4)
-nums.print_info(nums.lenght , nums.width)
+    def print_info(self):
+        print('P =',nums.perimeter(),"\t","S =",nums.area(),
+        "\t","lenght =",self.lenght,"\t","Width =",self.width)
+nums = Rectangel(15,40)
+nums.print_info()
 
 
