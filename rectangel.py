@@ -19,6 +19,6 @@ class Rectangel:
         self.y = y
         print('P =',nums.perimeter(x ,y),"\t","S =",nums.area(x, y),"\t","lenght =",x,"\t","Width =",y)
 nums = Rectangel(3,4)
-print(nums.print_info(nums.lenght , nums.width))
+nums.print_info(nums.lenght , nums.width)
 
 
