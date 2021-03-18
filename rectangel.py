@@ -11,7 +11,7 @@ class Rectangel:
         return (self.lenght + self.width) * 2
 
     def print_info(self):
-        print(f"area - {nums.area()}  perimeter - {nums.perimeter()}  width - {self.width}  lenght - {self.lenght}")
+        print(f"area - {nums.area()},  perimeter - {nums.perimeter()},  width - {self.width},  lenght - {self.lenght}")
 nums = Rectangel(15,40)
 nums.print_info()
 
